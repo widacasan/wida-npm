@@ -1,0 +1,28 @@
+{
+  "name": "wida-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widacasan/wida-npm.git"
+  },
+  "keywords": [],
+  "author": "William Camacho <widacasan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/widacasan/wida-npm/issues"
+  },
+  "homepage": "https://github.com/widacasan/wida-npm#readme",
+  "bin": {
+    "wida-npm": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "user": "^0.0.0"
+  }
+}
